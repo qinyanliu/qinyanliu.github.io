@@ -4,7 +4,7 @@ date: 2024-07-30 15:28:11
 ---
 ## English reading and writing
 I am a big fan of English literature. Robert Frost's poems are my personal favourite.  
-I am also an active member of USTC News Center, writing news reports on scientific research, school events, as well as interviews. [My published articles](http://en.ustc.edu.cn/ssjg.jsp?wbtreeid=1001)
+I am also an active member of USTC News Center, writing for news reports on scientific research, school events, as well as interviews. If you want to see my published works, please go to[USTC's offical English website](http://en.ustc.edu.cn/ssjg.jsp?wbtreeid=1001) and search for my name "LIU Qinyan".
 
 ## Choral Singing
 Currently I am an active member of USTC Student Chorus, singing as an alto and working as Head of Department of New Media Operations.  
