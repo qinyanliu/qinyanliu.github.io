@@ -5,7 +5,7 @@
 # 4. 执行命令：hexo clean && hexo g && hexo s 直接查看页面效果
 menu:
    Home: /  #需要hexo new page index,在index/index.md填写的内容将会展现在首页上
-   Profile: /about/ # 需要hexo new page about
+   #Profile: /about/ # 需要hexo new page about
    Projects: /list/ # 需要hexo new page list
    Hobbies: /about/ 
   # 添加其他页面格式举例：
@@ -15,7 +15,7 @@ menu:
 
 # 首页你想要展示的menu链接，注意当你修改了menu中的别名，这里要随着更改，不然你会疑惑怎么首页没有修改后的别名
 showInMenu:  # menu 中的哪些页面显示在首页中（“首页”必定显示）
-   - Profile  # 将在首页显示 文章 链接
+   #- Profile  # 将在首页显示 文章 链接
    - Projects
    - Hobbies
   # - 标签
