@@ -28,8 +28,8 @@ index:  # 首页相关配置
     #- "看过大海的人不会忘记海的广阔"
     # ...
   hitokoto: false # 一言：调用网络语句展示的接口
-  footer: Email:susanaliu@mail.ustc.edu.cn # 除了可以填写任何文字外，可以自动邮箱链接化，但需按照这个格式填写：Email:xxx@gmail.com
-  titlePosition: left # center | left  # 首页标题的位置
+  footer: '' # 除了可以填写任何文字外，可以自动邮箱链接化，但需按照这个格式填写：Email:xxx@gmail.com
+  titlePosition: left # centil:susanaliu@mail.ustc.edu.cner | left  # 首页标题的位置
   width: middle  # small | middle | big # 首页的宽度
 
 footerLink: # 底部的链接自定义
