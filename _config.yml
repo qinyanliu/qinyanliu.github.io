@@ -102,5 +102,5 @@ theme: A4
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/qinyanliu/qinyanliu.github.io.git
+  repo: git@github.com:qinyanliu/qinyanliu.github.io.git
   branch: main
