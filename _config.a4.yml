@@ -7,7 +7,8 @@ menu:
    Home: /  #需要hexo new page index,在index/index.md填写的内容将会展现在首页上
    #Profile: /about/ # 需要hexo new page about
    Projects: /list/ # 需要hexo new page list
-   Hobbies: /about/ 
+   Experiences and Awards : /about-experiences/
+   Extracurricular: /about/ 
   # 添加其他页面格式举例：
   # 标签: /tags/ #需要hexo new page tags
   # 分类: /categories/ # 需要hexo new page categories
@@ -17,7 +18,8 @@ menu:
 showInMenu:  # menu 中的哪些页面显示在首页中（“首页”必定显示）
    #- Profile  # 将在首页显示 文章 链接
    - Projects
-   - Hobbies
+   - Experiences and Awards
+   - Extracurricular
   # - 标签
   # - 分类
 
