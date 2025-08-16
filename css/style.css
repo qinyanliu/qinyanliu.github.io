@@ -19,7 +19,7 @@ p
 body
 {
     font-family: "Times New Roman", Helvetica, Tahoma, Arial, "LXGW WenKai", "notoserifsc-medium", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
-    font-size: 16.8px;
+    font-size: 24.8px;
     line-height: 1.7;
     /* letter-spacing: 0.6px; */
     color: var(--font-color-1);
@@ -124,6 +124,7 @@ a
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: center;
+    font-size: 29px;
 }
 .nav li
 {
