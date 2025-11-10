@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://qinyanliu.github.io/about/index.html</loc>
+    
+    <lastmod>2025-11-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://qinyanliu.github.io/about-research/index.html</loc>
     
     <lastmod>2025-11-10</lastmod>
@@ -11,18 +20,9 @@
   </url>
   
   <url>
-    <loc>http://qinyanliu.github.io/about/index.html</loc>
-    
-    <lastmod>2025-08-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://qinyanliu.github.io/about-experiences/index.html</loc>
     
-    <lastmod>2025-08-16</lastmod>
+    <lastmod>2025-11-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +31,7 @@
   <url>
     <loc>http://qinyanliu.github.io/index/index.html</loc>
     
-    <lastmod>2025-08-16</lastmod>
+    <lastmod>2025-11-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
