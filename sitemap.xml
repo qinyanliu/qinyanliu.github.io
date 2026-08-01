@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://qinyanliu.github.io/about-research/index.html</loc>
+    <loc>https://qinyanliu.github.io/about-research/</loc>
     
     <lastmod>2026-07-31</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://qinyanliu.github.io/about-experiences/index.html</loc>
+    <loc>https://qinyanliu.github.io/about-experiences/</loc>
     
     <lastmod>2026-07-26</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://qinyanliu.github.io/index/index.html</loc>
+    <loc>https://qinyanliu.github.io/index/</loc>
     
     <lastmod>2026-07-26</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://qinyanliu.github.io/about/index.html</loc>
+    <loc>https://qinyanliu.github.io/about/</loc>
     
     <lastmod>2026-07-23</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://qinyanliu.github.io/list/index.html</loc>
+    <loc>https://qinyanliu.github.io/list/</loc>
     
     <lastmod>2025-08-16</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://qinyanliu.github.io/2025/08/16/hello-world/</loc>
+    <loc>https://qinyanliu.github.io/2025/08/16/hello-world/</loc>
     
     <lastmod>2025-08-16</lastmod>
     
@@ -57,8 +57,8 @@
   
 
   <url>
-    <loc>http://qinyanliu.github.io/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <loc>https://qinyanliu.github.io/</loc>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
