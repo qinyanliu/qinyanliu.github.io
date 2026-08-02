@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qinyanliu.github.io/sitemap.xml
