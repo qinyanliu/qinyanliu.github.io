@@ -73,7 +73,7 @@
 .return-to-last-progress-wrap svg path { 
 	fill: none; 
 }
-.return-to-last-progress-wrapp svg.progress-circle path {
+.return-to-last-progress-wrap svg.progress-circle path {
 	stroke: #4f7dde; /* 边框的颜色 */
 	stroke-width: 4;
 	box-sizing:border-box;
