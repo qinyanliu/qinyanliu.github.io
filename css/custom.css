@@ -1,3 +1,17 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    color: #222;
+    font-weight: 500;
+}
+
 .index-profile-header {
     position: relative;
     margin-bottom: 6px;
@@ -16,11 +30,135 @@
 }
 
 .post-md a {
+    word-break: break-word;
+    overflow-wrap: break-word;
     overflow-wrap: anywhere;
 }
 
+.post-md h1,
+.post-md h2,
+.post-md h3,
+.post-main-title,
+.post-title {
+    font-weight: 500;
+}
+
+.site-title,
+.index-logo,
+.logo {
+    font-weight: 600;
+}
+
+.post-md {
+    font-weight: 500;
+    line-height: 1.78;
+}
+
+.post-md p,
+.post-md ul,
+.post-md ol {
+    margin-top: .9em;
+    margin-bottom: .9em;
+}
+
+.post-md h1,
+.post-md h2,
+.post-md h3 {
+    margin-top: 1.25em;
+    margin-bottom: .65em;
+}
+
+.post-md strong,
+.post-md b {
+    font-weight: 600;
+}
+
+.site-title {
+    margin-top: 0;
+    padding: 0;
+}
+
+.site-title-link {
+    color: #4f7dde;
+    text-decoration: none;
+}
+
+.site-title-link:visited {
+    color: #4f7dde;
+}
+
+.site-title-link:hover {
+    color: #2f5fc7;
+}
+
+.header .site-title-link,
+.header .site-title-link:link,
+.header .site-title-link:visited {
+    color: #4f7dde;
+}
+
+.header .site-title-link:hover {
+    color: #2f5fc7;
+}
+
+.header .logo {
+    font-size: 2.15rem;
+    line-height: 1.12;
+}
+
+.header .description {
+    font-size: .82rem;
+}
+
+.extracurricular-photo-strip {
+    display: flex;
+    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.2em;
+    align-items: start;
+    margin: 1.25em auto 0;
+    width: 88%;
+    max-width: 100%;
+}
+
+.post-md .extracurricular-photo-strip a {
+    flex: 1 1 0;
+    display: block;
+    min-width: 0;
+    box-shadow: none;
+}
+
+.post-md .extracurricular-photo-strip img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+    box-shadow: 0 .35em 1.1em rgba(0, 0, 0, .05);
+}
+
+.experience-ta-photo {
+    margin: 1.1em auto 1.45em;
+    width: 76%;
+    max-width: 560px;
+}
+
+.post-md .experience-ta-photo a {
+    display: block;
+    box-shadow: none;
+}
+
+.post-md .experience-ta-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 .35em 1.1em rgba(0, 0, 0, .06);
+}
+
 .index-profile-menu {
-    margin-bottom: 12px;
+    margin-top: 16px;
+    margin-bottom: 6px;
     font-size: 18px;
     line-height: 1.35;
 }
@@ -37,6 +175,112 @@
 }
 
 @media (max-width: 760px) {
+    body,
+    .post-md {
+        font-size: 16px;
+        line-height: 1.72;
+    }
+
+    .paper {
+        padding: 12px;
+    }
+
+    .paper-main,
+    .index-main {
+        padding-right: 5.5vw;
+        padding-left: 5.5vw;
+    }
+
+    .header .logo {
+        font-size: 1.82rem;
+        line-height: 1.14;
+    }
+
+    .header .description {
+        font-size: .78rem;
+        margin-top: -.6em;
+    }
+
+    .header > .nav {
+        column-gap: 1em;
+        row-gap: .15em;
+        font-size: .98rem;
+        line-height: 1.35;
+    }
+
+    .header > .nav li {
+        margin-right: 1em;
+    }
+
+    @supports (gap: 1em) {
+        .header > .nav li {
+            margin-right: 0;
+        }
+    }
+
+    .post-main-title,
+    .post-title {
+        font-size: 1.42rem;
+        line-height: 1.35;
+    }
+
+    .post-md h1 {
+        font-size: 1.65rem;
+        line-height: 1.24;
+    }
+
+    .post-md h2 {
+        font-size: 1.42rem;
+        line-height: 1.28;
+    }
+
+    .post-md h3 {
+        font-size: 1.22rem;
+        line-height: 1.32;
+    }
+
+    .post-md h1,
+    .post-md h2,
+    .post-md h3 {
+        margin-top: 1.15em;
+        margin-bottom: .55em;
+    }
+
+    .post-md p,
+    .post-md ul,
+    .post-md ol {
+        margin-top: .8em;
+        margin-bottom: .8em;
+    }
+
+    .post-md h4 {
+        font-size: 1.08rem;
+    }
+
+    .post-md h5,
+    .post-md h6,
+    .post-md code {
+        font-size: 1rem;
+    }
+
+    .post-date,
+    .post-meta,
+    .paginator,
+    .footer {
+        font-size: .86rem;
+    }
+
+    .footer-last,
+    .footer-last-span-right,
+    .index-footer-last-span {
+        font-size: .72rem;
+        line-height: 1.45;
+    }
+
+    .comment-area-title {
+        font-size: 1.2rem;
+    }
+
     .index-profile-header {
         display: grid;
         grid-template-columns: minmax(0, 1fr) auto;
@@ -52,7 +296,9 @@
     }
 
     .index-profile-menu {
-        font-size: 18px;
+        margin-top: 12px;
+        margin-bottom: 6px;
+        font-size: 1.05rem;
     }
 
     .index-logo {
@@ -62,6 +308,57 @@
 }
 
 @media (max-width: 420px) {
+    .paper {
+        padding: 8px;
+    }
+
+    .paper-main,
+    .index-main {
+        padding-top: 28px;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+
+    .header .logo {
+        font-size: 1.58rem;
+    }
+
+    .header .description {
+        font-size: .74rem;
+    }
+
+    .header > .nav {
+        column-gap: .8em;
+        font-size: .94rem;
+    }
+
+    .header > .nav li {
+        margin-right: .8em;
+    }
+
+    @supports (gap: 1em) {
+        .header > .nav li {
+            margin-right: 0;
+        }
+    }
+
+    .post-main-title,
+    .post-title {
+        font-size: 1.3rem;
+    }
+
+    .post-md h1 {
+        font-size: 1.5rem;
+    }
+
+    .post-md h2 {
+        font-size: 1.32rem;
+    }
+
+    .post-md h3 {
+        font-size: 1.16rem;
+    }
+
     .index-profile-header {
         justify-content: space-between;
         gap: 10px;
@@ -74,15 +371,28 @@
     }
 
     .index-profile-menu {
-        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: .98rem;
     }
 
     .index-logo {
-        font-size: 2rem;
+        font-size: 1.95rem;
     }
 }
 
 @media (max-width: 600px) {
+    .experience-ta-photo {
+        width: 100%;
+        margin-top: 1em;
+        margin-bottom: 1.3em;
+    }
+
+    .extracurricular-photo-strip {
+        gap: 1.25em;
+        width: 100%;
+    }
+
     .progress-wrap {
         right: 16px;
         bottom: 20px;
