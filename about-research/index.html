@@ -174,14 +174,10 @@
         <link rel="stylesheet" type="text/css" href="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/css/lightgallery.min.css" /><div class=".article-gallery"><h2 id="Publications"><a href="#Publications" class="headerlink" title="Publications"></a>Publications</h2><p><strong>Transformers as Provable Approximators of Sparse Principal Component Analysis</strong><br><strong>Qinyan Liu</strong>, Yan Chen, and Canhong Wen</p>
 <p><strong>STAI-X 2026</strong> Strong Accept (with top review scores)<br><a href="/assets/papers/liu2026tfspca.pdf">Paper (pdf)</a> | <a target="_blank" rel="noopener" href="https://github.com/qinyanliu/transformer_spca">Code</a> | <a target="_blank" rel="noopener" href="https://openreview.net/forum?id=nxvwCY73m1">OpenReview</a> | <a href="/assets/SLDS_TFSPCA.pdf">Poster</a></p>
 <ul>
-<li><p>Extended the theoretical understanding of Transformers to <strong>fully unsupervised</strong> statistical learning, using Sparse Principal Component Analysis (SPCA, or sparse PCA) as a representative statistical task.</p>
-</li>
-<li><p>Established a constructive approximation framework showing that ReLU Transformers can emulate truncated power iterations, with error guarantees under a <strong>noisy</strong> spiked covariance model and necessary assumptions.  </p>
-</li>
-<li><p>Derived high probability <strong>statistical error bounds</strong> under standard learning-theoretic assumptions and an additional restricted sparse eigengap condition, quantifying the expressiveness-capacity tradeoff.</p>
-</li>
-<li><p>Validated the method on <strong>high-dimensional genomic</strong> datasets and noisy synthetic datasets. Results demonstrate that unsupervised Transformers can achieve SPCA performance comparable to baselines and efficient batched inference.</p>
-</li>
+<li>Proved that multi-head Transformers can implement Sparse Principal Component Analysis (SPCA) under <strong>noise</strong>, extending existing theoretical work on Transformer approximation to the** fully unsupervised** setting.</li>
+<li>Designed parameter constructions aligned with iterative Truncated Power updates, and derived <strong>guarantees</strong> by decomposing recovery error into algorithmic approximation, statistical estimation, and generalization components.</li>
+<li>Conducted experiments on synthetic and <strong>high-dimensional gene-expression</strong> data, achieving competitiveperformance against classical baselines, with extensive ablations across model configurations and noise levels.</li>
+<li>Demonstrated <strong>efficient</strong> batched inference after training, highlighting amortized Transformer-based SPCA inference.</li>
 </ul>
 <!--
 ## Manuscripts Under Review
@@ -197,9 +193,9 @@
 
 <h2 id="Projects"><a href="#Projects" class="headerlink" title="Projects"></a>Projects</h2><p><strong>Leveraging Zero-Inflated Data via Double Machine Learning</strong><br>Advisor: Prof. <a target="_blank" rel="noopener" href="https://kanxu526.github.io/"><strong>Kan Xu</strong></a>, W. P. Carey School of Business, Arizona State University</p>
 <ul>
-<li>Analyzed zero-inflated and censored demand patterns from real-world online marketing data.</li>
+<li>Studied treatment effect estimation in real-world online marketing data with zero-inflated and censored demand.</li>
 <li>Implemented preliminary Double Machine Learning and doubly robust estimators to study sparse click outcomes.</li>
-<li>Explored zero-inflated models and semiparametric methods for treatment effect estimation.</li>
+<li>Investigated zero-inflated models and semiparametric methods for treatment effect estimation.</li>
 </ul>
 </div><script src="https://jsd.cdn.zzko.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if("undefined"!=typeof lightGallery) {
         var options1 = {
